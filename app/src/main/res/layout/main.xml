@@ -1,11 +1,61 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+    android:layout_height="match_parent" >
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_alignParentTop="true" >
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <TextView
+			android:id="@+id/status_text"
+			android:text="Your System is up to date!"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:paddingLeft="8dip"
+			android:paddingBottom="16dip" />
 
-</LinearLayout>
+		<TextView
+			android:id="@+id/last_checked"
+			android:text="Last checked: 00:00"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:paddingLeft="8dip"
+			android:layout_below="@id/status_text"/>
+
+		<TextView
+			android:id="@+id/status"
+			android:text="No Internet Connection"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dip"
+			android:layout_below="@id/last_checked" />
+		
+    </RelativeLayout>
+	
+	<LinearLayout style="?android:buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:layout_alignParentBottom="true">
+		
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/download_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Download" />
+
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/check_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Check" />
+
+    </LinearLayout>
+</RelativeLayout>
