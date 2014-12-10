@@ -72,7 +72,6 @@ public class AntaresUtil
 			for (int i = 0; i < jArray.length(); i++)
 			{
 				JSONObject currentFile = jArray.getJSONObject(i);
-				Log.e("ant", "added " + currentFile.getString("name") + " " + currentFile.getString("url"));
 				list.add(new DLFile(currentFile.getString("name"), currentFile.getString("url")));
 			}
 		}
@@ -138,7 +137,6 @@ public class AntaresUtil
 			if (cNum < fNum)
 			{
 				currentBiggest = f;
-				Log.e("ant", "replaced f: "+ cNum + " with" + fNum);
 			}
 		}
 		return currentBiggest;
