@@ -57,6 +57,6 @@ public class UpdateService extends IntentService
 		AlarmManager mgr = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
 		Intent i = new Intent(this, UpdateService.class);
 		PendingIntent pi = PendingIntent.getService(this, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
-		mgr.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,  SystemClock.elapsedRealtime(), AlarmManager.INTERVAL_HOUR, pi);
+		mgr.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,  SystemClock.elapsedRealtime() + AlarmManager.INTERVAL_HOUR, AlarmManager.INTERVAL_HOUR, pi);
 	}
 }
