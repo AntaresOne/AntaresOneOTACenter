@@ -3,13 +3,13 @@
 
     <string name="app_name">AntaresOne Updater</string>
     <string name="blog">RooBoo AppReviews</string>
-    <string name="about">Uber mich</string>
-    <string name="about_sum">Hallo, \nich bin Empty2k12 und ich habe leidenschaft fur Android. Ich liebe entwicklung neue apps oder schreiben bewertungen fur mein blog.\nWenn Sie wollen, uberprufen sie die folgenden links!</string>
-    <string name="check">Prüfen</string>
+    <string name="about">Über mich</string>
+    <string name="about_sum">Hallo, \nich bin Empty2k12 und ich habe eine Leidenschaft für Android. Ich liebe es neue Apps zu entwickeln oder App-Reviews für meinen Blog zu schreiben.\nVergias nicht die Links unten anzusehen!</string>
+    <string name="check">Überprüfen</string>
     <string name="download">Download</string>
-    <string name="last_checked">Letzte prufung: 00:00</string>
-    <string name="status">Keine Internet verbindung</string>
-    <string name="updated">Ihr System wird aktualisiert!</string>
+    <string name="last_checked">Letzte Überprüfung: 00:00</string>
+    <string name="status">Keine Internetverbindung</string>
+    <string name="updated">Ihr System ist aktuell!</string>
     <string name="xda_profile">deutron@XDA</string>
     
 </resources>
