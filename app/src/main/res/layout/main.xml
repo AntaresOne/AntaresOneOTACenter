@@ -11,7 +11,7 @@
 
         <TextView
 			android:id="@+id/status_text"
-			android:text="Your System is up to date!"
+			android:text="@string/updated"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:textAppearance="?android:attr/textAppearanceLarge"
@@ -20,7 +20,7 @@
 
 		<TextView
 			android:id="@+id/last_checked"
-			android:text="Last checked: 00:00"
+			android:text="@string/last_checked"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:textStyle="bold"
@@ -29,7 +29,7 @@
 
 		<TextView
 			android:id="@+id/status"
-			android:text="No Internet Connection"
+			android:text="@string/status"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:paddingLeft="8dip"
@@ -48,14 +48,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Download" />
+            android:text="@string/download" />
 
         <Button style="?android:buttonBarButtonStyle"
             android:id="@+id/check_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Check" />
+            android:text="@string/check" />
 
     </LinearLayout>
 </RelativeLayout>
