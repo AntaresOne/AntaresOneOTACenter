@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AntaresOne Updater</string>
+    <string name="about">A proposito</string>
+    <string name="about_sum">Ciao, \nsono Empty2k12 e ho la passione per Android. Amo sviluppare nuove app e scrivere recensioni nel mio blog.\nSe volete, date un\'occhiata ai link!</string>
+    <string name="blog">RooBoo AppReviews</string>
+    <string name="check">Controlla ora</string>
+    <string name="download">Scarica</string>
+    <string name="last_checked">Ultimo controllo: 00:00</string>
+    <string name="status">Connessione internet assente</string>
+    <string name="updated">Il sistema è aggiornato!</string>
+    <string name="xda_profile">deutron@XDA</string>
+    
+</resources>

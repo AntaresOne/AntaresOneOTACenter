@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AntaresOne Updater</string>
+    <string name="blog">RooBoo AppReviews</string>
+    <string name="about">Uber mich</string>
+    <string name="about_sum">Hallo, \nich bin Empty2k12 und ich habe leidenschaft fur Android. Ich liebe entwicklung neue apps oder schreiben bewertungen fur mein blog.\nWenn Sie wollen, uberprufen sie die folgenden links!</string>
+    <string name="check">Prüfen</string>
+    <string name="download">Download</string>
+    <string name="last_checked">Letzte prufung: 00:00</string>
+    <string name="status">Keine Internet verbindung</string>
+    <string name="updated">Ihr System wird aktualisiert!</string>
+    <string name="xda_profile">deutron@XDA</string>
+    
+</resources>
