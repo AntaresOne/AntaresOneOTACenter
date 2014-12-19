@@ -8,6 +8,7 @@ import java.net.*;
 import java.util.*;
 import javax.net.ssl.*;
 import org.json.*;
+import java.security.cert.*;
 
 public class AntaresUtil
 {
@@ -17,13 +18,50 @@ public class AntaresUtil
 		ConnectivityManager connManager = (ConnectivityManager) cont.getSystemService(Context.CONNECTIVITY_SERVICE);
 		NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
 
-		if (mWifi.isConnected() || manuallyStarted)
+		boolean trrue = true;
+		if (mWifi.isConnected() || manuallyStarted || trrue)
 		{
 			URL url;
 			try
 			{
 				url = new URL(urll);
+				
+				TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
+						public java.security.cert.X509Certificate[] getAcceptedIssuers() {
+							return null;
+						}
+
+						public void checkClientTrusted(X509Certificate[] certs,
+													   String authType) {
+						}
+
+						public void checkServerTrusted(X509Certificate[] certs,
+													   String authType) {
+						}
+					} };
+
+// Install the all-trusting trust manager
+				SSLContext sc;
+				try {
+					sc = SSLContext.getInstance("SSL");
+					sc.init(null, trustAllCerts, new java.security.SecureRandom());
+					HttpsURLConnection
+						.setDefaultSSLSocketFactory(sc.getSocketFactory());
+
+					// Create all-trusting host name verifier
+					HostnameVerifier allHostsValid = new HostnameVerifier() {
+						public boolean verify(String hostname, SSLSession session) {
+							return true;
+						}
+					};
+					HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
 				HttpsURLConnection con = (HttpsURLConnection)url.openConnection();
+				
 
 				if (con != null)
 				{
@@ -34,11 +72,14 @@ public class AntaresUtil
 							new InputStreamReader(con.getInputStream()));
 
 						StringBuilder sb = new StringBuilder();
+						
+						Log.e("antares", "fireeeddd");
 
 						String line;
 						while ((line = br.readLine()) != null)
 						{
 							sb.append(line + "\n");
+							Log.e("anyares", "line: " + line);
 						}
 						br.close();
 						return sb.toString();
@@ -58,7 +99,7 @@ public class AntaresUtil
 				e.printStackTrace();
 			}
 		}
-		return "Error";
+		return "TestIt-Error";
 	}
 
 	public List<DLFile> handleJson(String result)
@@ -99,7 +140,7 @@ public class AntaresUtil
 			Log.e("AntaresOne Updater", "stripVersionNumber has encountered a issue: " + fullName);
 			e.printStackTrace();
 		}
-		return 0;
+		return 1234;
 	}
 
 	public String getRoDotCmDotDisplayDotVersion()

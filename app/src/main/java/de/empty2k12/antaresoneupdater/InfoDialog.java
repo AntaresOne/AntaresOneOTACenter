@@ -22,7 +22,7 @@ public class InfoDialog extends DialogFragment
 		View v = inflater.inflate(R.layout.info_dialog, null);
 		builder.setView(v)
 			// Add action buttons
-			.setPositiveButton("Got it!", new DialogInterface.OnClickListener() {
+			.setPositiveButton(R.string.got_it, new DialogInterface.OnClickListener() {
 				@Override
 				public void onClick(DialogInterface dialog, int id)
 				{

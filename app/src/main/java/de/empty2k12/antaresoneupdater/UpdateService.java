@@ -2,7 +2,9 @@ package de.empty2k12.antaresoneupdater;
 
 import android.app.*;
 import android.content.*;
+import android.graphics.*;
 import android.os.*;
+import android.widget.*;
 
 public class UpdateService extends IntentService
 {
@@ -19,10 +21,8 @@ public class UpdateService extends IntentService
 	}
 
 	@Override
-	protected void onHandleIntent(Intent intent)
-	{
+	protected void onHandleIntent(Intent intent) {
 		AntaresUtil util = new AntaresUtil();
-
 		DLFile highestServerFile = util.max(util.handleJson(util.testIt(getApplicationContext(), false)));
 
 		int systemVersion = util.stripVersionNumber(util.getRoDotCmDotDisplayDotVersion());
@@ -39,17 +39,25 @@ public class UpdateService extends IntentService
 			Intent mainIntent = new Intent(getApplicationContext(), MainActivity.class);
 			PendingIntent pIntent = PendingIntent.getActivity(getApplicationContext(), 0, mainIntent, 0);
 
-			Notification.Builder builder = new Notification.Builder(getApplicationContext())
+			Notification.Builder mBuilder = new Notification.Builder(getApplicationContext())
 				.setSmallIcon(android.R.drawable.stat_sys_download_done)
 				.setAutoCancel(true)
-				.setContentTitle("Rom Update Available!")
-				.setContentText("Your Version: " + systemVersion + " Upstream Version: " + upstreamVersion);
+				.setContentTitle(getResources().getString(R.string.rom_update_available) + "!")
+				.setContentText("Running " + (upstreamVersion - systemVersion) + " version(s) behind!")
+				.setCategory("AntaresOneUpdater")
+				.setColor(Color.parseColor("#4CAF50"))
+				.setContentIntent(pIntent);
+				
+			Notification.InboxStyle inboxStyle = new Notification.InboxStyle();
+			inboxStyle.setBigContentTitle("Rom Version details:");
+			inboxStyle.addLine(getResources().getString(R.string.your_version) + ": " + systemVersion);
+			inboxStyle.addLine(getResources().getString(R.string.upstream_version) + ": " + upstreamVersion);
+			mBuilder.setStyle(inboxStyle);
 
-			mNotification = builder.getNotification();
+			mNotification = mBuilder.getNotification();
 			mNotificationManager.notify(NOTIFICATION_ID, mNotification);
-		} else {
-			registerAlarm(getApplicationContext());
-		}
+		} 
+		registerAlarm(getApplicationContext());
 	}
 	
 	public void registerAlarm(Context context)

@@ -98,7 +98,7 @@ public class MainActivity extends Activity
 		protected void onPreExecute()
 		{
 			super.onPreExecute();
-			dialog.setMessage("Loading....");
+			dialog.setMessage(getResources().getString(R.string.loading));
 			dialog.setCancelable(false);
 			dialog.setCanceledOnTouchOutside(false);
 			dialog.show();
@@ -132,10 +132,10 @@ public class MainActivity extends Activity
 						int systemVersion = util.stripVersionNumber(util.getRoDotCmDotDisplayDotVersion());
 						int upstreamVersion = util.stripVersionNumber(highestServerFile.getName());
 
-						mResult.setText("System: " + systemVersion + " Upstream: " + upstreamVersion);
-						mStatus.setText((systemVersion < upstreamVersion) ? "Update Available!" : "Your System is up to date!");
+						mResult.setText(getResources().getString(R.string.system) + ": " + systemVersion + " " + getResources().getString(R.string.upstream) + ": " + upstreamVersion);
+						mStatus.setText((systemVersion < upstreamVersion) ? getResources().getString(R.string.update_available) + "!" : getResources().getString(R.string.your_system_is_up_to_date) + "!");
 						SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-						mLastChecked.setText("Last checked: " + preferences.getString("last_checked", "Never checked!"));
+						mLastChecked.setText(getResources().getString(R.string.last_checked) + ": " + preferences.getString("last_checked", getResources().getString(R.string.never_checked)));
 
 						SharedPreferences.Editor editor = preferences.edit();
 						editor.putString("highest_name", highestServerFile.getName()); // value to store
