@@ -17,9 +17,8 @@ public class AntaresUtil
 	{
 		ConnectivityManager connManager = (ConnectivityManager) cont.getSystemService(Context.CONNECTIVITY_SERVICE);
 		NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-
-		boolean trrue = true;
-		if (mWifi.isConnected() || manuallyStarted || trrue)
+		
+		if (mWifi.isConnected() || manuallyStarted)
 		{
 			URL url;
 			try
