@@ -11,5 +11,15 @@
     <string name="status">No Internet Connection</string>
     <string name="updated">Your System is up to date!</string>
     <string name="xda_profile">deutron@XDA</string>
+	<string name="got_it">Verstanden!</string>
+	<string name="loading">Lädt...</string>
+	<string name="system">System</string>
+	<string name="upstream">Upstream</string>
+	<string name="upstream_version">Upstream Version</string>
+	<string name="update_available">Update Available</string>
+	<string name="rom_update_available">Rom Update Available</string>
+	<string name="your_system_is_up_to_date">Your system is up to date</string>
+	<string name="never_checked">Never checked</string>
+	<string name="your_version">Your Version</string>
     
 </resources>

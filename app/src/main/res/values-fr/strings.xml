@@ -2,14 +2,23 @@
 <resources>
 
     <string name="app_name">AntaresOne Updater</string>
-    <string name="about">Sur moi</string>
-    <string name="about_sum">Salut, \nje suis Empty2k12 et je ai une passion pour Android. Je aime développer nouvelles applications et écrire des commentaires pour mon blog.\nSi vous voulez, vérifier les liens ci-dessous!</string>
+    <string name="about">À propos de moi</string>
+    <string name="about_sum">Salut, \nJe me nomme Empty2k12 et je suis passioné d\'Androide. J\'aime développer des applications et écrire des commentaires pour mon blog.\nN\'hésitez pas à visitez les liens ci-dessous!</string>
     <string name="blog">RooBoo AppReviews</string>
     <string name="check">Vérifier</string>
     <string name="download">Télécharger</string>
-    <string name="last_checked">A\' carreaux: 00:00</string>
-    <string name="status">Pas de connexion Internet</string>
-    <string name="updated">Votre système est mis à jour!</string>
+    <string name="last_checked">Dernière Vérification: 00:00</string>
+    <string name="status">Aucune connexion Internet</string>
+    <string name="updated">Votre système est à jour!</string>
     <string name="xda_profile">deutron@XDA</string>
-    
+	<string name="got_it">Ok!</string>
+	<string name="loading">Chargement...</string>
+	<string name="system">System</string>
+	<string name="upstream">Upstream</string>
+	<string name="upstream_version">Upstream Version</string>
+	<string name="update_available">Mise à jour disponible</string>
+	<string name="rom_update_available">Mise à jour de Rom disponible</string>
+	<string name="your_system_is_up_to_date">Votre systeme est mis à jour</string>
+	<string name="never_checked">Jamais vérifié</string>
+	<string name="your_version">Votre version</string>
 </resources>
