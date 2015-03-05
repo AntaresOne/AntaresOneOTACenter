@@ -6,7 +6,7 @@
 	<RelativeLayout
 		android:layout_width="match_parent"
 		android:layout_height="64dp"
-		android:background="#FFFFBB33" >
+		android:background="#FF448AFF" >
 		
 		<TextView
 			android:text="@string/about"
@@ -39,7 +39,8 @@
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:text="@string/xda_profile" />
+        android:text="@string/xda_profile"
+        android:textColor="#616161"/>
 	
     <Button
         android:id="@+id/blog"
@@ -49,5 +50,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/blog"/>
+        android:text="@string/blog"
+        android:textColor="#616161"/>
+
 </LinearLayout>

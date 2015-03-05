@@ -45,7 +45,7 @@ public class UpdateService extends IntentService
 				.setContentTitle(getResources().getString(R.string.rom_update_available))
 				.setContentText(getResources().getString(R.string.new_update) + ": " + systemVersion)
 				.setCategory("AntaresOneUpdater")
-				.setColor(Color.parseColor("#4CAF50"))
+				.setColor(Color.parseColor("#2196F3"))
 				.setContentIntent(pIntent);
 				
 			Notification.InboxStyle inboxStyle = new Notification.InboxStyle();

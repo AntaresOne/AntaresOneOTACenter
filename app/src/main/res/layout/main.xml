@@ -16,7 +16,8 @@
 			android:layout_height="wrap_content"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:paddingLeft="8dip"
-			android:paddingBottom="16dip" />
+			android:paddingBottom="16dip"
+            android:textColor="#616161"/>
 
 		<TextView
 			android:id="@+id/last_checked"
@@ -48,14 +49,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/download" />
+            android:text="@string/download"
+            android:textColor="#2196F3" />
 
         <Button style="?android:buttonBarButtonStyle"
             android:id="@+id/check_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/check" />
+            android:text="@string/check"
+            android:textColor="#2196F3" />
 
     </LinearLayout>
 </RelativeLayout>

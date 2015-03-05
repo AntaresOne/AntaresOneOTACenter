@@ -2,9 +2,8 @@
 <resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light">
-        <item name="android:colorPrimary">#4CAF50</item>
-        <item name="android:colorPrimaryDark">#388E3C</item>
-        <item name="android:colorAccent">#66BB6A</item>
-        <!--<item name="android:statusBarColor">#4CAF50</item>-->
+        <item name="android:colorPrimary">#FF2196F3</item>
+        <item name="android:colorPrimaryDark">#FF1976D2</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
 </resources>
