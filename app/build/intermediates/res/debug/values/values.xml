@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Mattia/Desktop/AntaresOneUpdater/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">About Me</string>
+    <string name="about_sum">Hi, \nI am Empty2k12 and I have a passion for Android. I love developing new apps or write reviews for my blog.\nDo me a favor and check out the links below!</string>
+    <string name="app_name">AntaresOne Updater</string>
+    <string name="blog">RooBoo AppReviews</string>
+    <string name="check">Check</string>
+    <string name="download">Download</string>
+    <string name="got_it">Verstanden!</string>
+    <string name="last_checked">Last checked: 00:00</string>
+    <string name="loading">Lädt...</string>
+    <string name="never_checked">Never checked</string>
+    <string name="rom_update_available">Rom Update Available</string>
+    <string name="status">No Internet Connection</string>
+    <string name="system">System</string>
+    <string name="update_available">Update Available</string>
+    <string name="updated">Your System is up to date!</string>
+    <string name="upstream">Upstream</string>
+    <string name="upstream_version">Upstream Version</string>
+    <string name="xda_profile">deutron@XDA</string>
+    <string name="your_system_is_up_to_date">Your system is up to date</string>
+    <string name="your_version">Your Version</string>
+    <!-- From: file:/C:/Users/Mattia/Desktop/AntaresOneUpdater/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">#4CAF50</item>
+        <item name="android:colorPrimaryDark">#388E3C</item>
+        <item name="android:colorAccent">#66BB6A</item>
+        <!--<item name="android:statusBarColor">#4CAF50</item>-->
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Mattia/Desktop/AntaresOneUpdater/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="about">Acerca de mí</string>
+    <string name="about_sum">Hola, \nyo soy Empty2k12, y tengo una pasión para Android. Me gusta el desarrollo nuevas aplicaciones y escribir comentarios para mi blog.\nSi quieres, comprobar los enlaces abajo!</string>
+    <string name="app_name">AntaresOne Updater</string>
+    <string name="blog">RooBoo AppReviews</string>
+    <string name="check">Comprobar ahora</string>
+    <string name="download">Descargar</string>
+    <string name="last_checked">Ultimo control: 00:00</string>
+    <string name="status">Sin conexión a Internet</string>
+    <string name="updated">Su sistema se actualiza!</string>
+    <string name="xda_profile">deutron@XDA</string>
+</resources>
