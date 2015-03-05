@@ -7,18 +7,20 @@
     <string name="blog">RooBoo AppReviews</string>
     <string name="check">Vérifier</string>
     <string name="download">Télécharger</string>
-    <string name="last_checked">Dernière Vérification: 00:00</string>
-    <string name="status">Aucune connexion Internet</string>
+    <string name="last_checked">Dernière vérification: 00:00</string>
+    <string name="status">Aucune connexion internet</string>
     <string name="updated">Votre système est à jour!</string>
     <string name="xda_profile">deutron@XDA</string>
 	<string name="got_it">Ok!</string>
 	<string name="loading">Chargement...</string>
 	<string name="system">System</string>
 	<string name="upstream">Upstream</string>
-	<string name="upstream_version">Upstream Version</string>
+	<string name="upstream_version">Upstream</string>
 	<string name="update_available">Mise à jour disponible</string>
-	<string name="rom_update_available">Mise à jour de Rom disponible</string>
+	<string name="rom_update_available">Mise à jour de ROM disponible</string>
 	<string name="your_system_is_up_to_date">Votre systeme est mis à jour</string>
 	<string name="never_checked">Jamais vérifié</string>
 	<string name="your_version">Votre version</string>
+    <string name="version_details">ROM détails</string>
+    <string name="new_update">Upstream</string>
 </resources>

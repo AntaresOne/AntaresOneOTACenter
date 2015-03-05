@@ -11,5 +11,17 @@
     <string name="status">Connessione internet assente</string>
     <string name="updated">Il sistema è aggiornato!</string>
     <string name="xda_profile">deutron@XDA</string>
-    
+    <string name="got_it">Ricevuto!</string>
+    <string name="loading">Caricamento...</string>
+    <string name="never_checked">Mai controllato</string>
+    <string name="rom_update_available">Aggiornamento ROM disponibile</string>
+    <string name="system">Sistema</string>
+    <string name="update_available">Aggiornamento disponibile</string>
+    <string name="upstream">Aggiornamento</string>
+    <string name="upstream_version">Aggiornamento</string>
+    <string name="your_system_is_up_to_date">Il sistema è aggiornato</string>
+    <string name="your_version">Versione corrente</string>
+    <string name="version_details">Dettagli ROM</string>
+    <string name="new_update">Aggiornamento</string>
+
 </resources>

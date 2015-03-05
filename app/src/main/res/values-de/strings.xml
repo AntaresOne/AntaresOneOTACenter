@@ -8,8 +8,8 @@
     <string name="check">Überprüfen</string>
     <string name="download">Download</string>
     <string name="last_checked">Letzte Überprüfung</string>
-    <string name="status">Keine Internetverbindung</string>
-    <string name="updated">Ihr System ist aktuell!</string>
+    <string name="status">Keine internetverbindung</string>
+    <string name="updated">Ihr system ist aktuell!</string>
     <string name="xda_profile">deutron@XDA</string>
 	<string name="got_it">Verstanden!</string>
 	<string name="loading">Lädt...</string>
@@ -17,9 +17,11 @@
 	<string name="upstream">Server</string>
 	<string name="upstream_version">Server-Version</string>
 	<string name="update_available">Update verfügbar</string>
-	<string name="rom_update_available">Rom Update verfügbar</string>
-	<string name="your_system_is_up_to_date">Dein System ist aktuell</string>
+	<string name="rom_update_available">ROM update verfügbar</string>
+	<string name="your_system_is_up_to_date">Dein system ist aktuell</string>
 	<string name="never_checked">Noch nie geprüft</string>
-	<string name="your_version">Deine Version</string>
-    
+	<string name="your_version">Deine version</string>
+    <string name="version_details">ROM details</string>
+    <string name="new_update">Server-Version</string>
+
 </resources>

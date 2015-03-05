@@ -2,24 +2,26 @@
 <resources>
 
     <string name="app_name">AntaresOne Updater</string>
-    <string name="about">About Me</string>
+    <string name="about">About me</string>
     <string name="about_sum">Hi, \nI am Empty2k12 and I have a passion for Android. I love developing new apps or write reviews for my blog.\nDo me a favor and check out the links below!</string>
     <string name="blog">RooBoo AppReviews</string>
     <string name="check">Check</string>
     <string name="download">Download</string>
     <string name="last_checked">Last checked: 00:00</string>
-    <string name="status">No Internet Connection</string>
-    <string name="updated">Your System is up to date!</string>
+    <string name="status">No internet connection</string>
+    <string name="updated">Your system is up to date!</string>
     <string name="xda_profile">deutron@XDA</string>
-	<string name="got_it">Verstanden!</string>
-	<string name="loading">Lädt...</string>
+	<string name="got_it">Got it!</string>
+	<string name="loading">Loading...</string>
 	<string name="system">System</string>
 	<string name="upstream">Upstream</string>
-	<string name="upstream_version">Upstream Version</string>
-	<string name="update_available">Update Available</string>
-	<string name="rom_update_available">Rom Update Available</string>
+	<string name="upstream_version">Upstream version</string>
+	<string name="update_available">Update available</string>
+	<string name="rom_update_available">ROM update available</string>
 	<string name="your_system_is_up_to_date">Your system is up to date</string>
 	<string name="never_checked">Never checked</string>
-	<string name="your_version">Your Version</string>
-    
+	<string name="your_version">Your version</string>
+    <string name="version_details">ROM details</string>
+    <string name="new_update">New update</string>
+
 </resources>

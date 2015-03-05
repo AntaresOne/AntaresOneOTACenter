@@ -42,14 +42,14 @@ public class UpdateService extends IntentService
 			Notification.Builder mBuilder = new Notification.Builder(getApplicationContext())
 				.setSmallIcon(android.R.drawable.stat_sys_download_done)
 				.setAutoCancel(true)
-				.setContentTitle(getResources().getString(R.string.rom_update_available) + "!")
-				.setContentText("New update: " + systemVersion + "!")
+				.setContentTitle(getResources().getString(R.string.rom_update_available))
+				.setContentText(getResources().getString(R.string.new_update) + ": " + systemVersion)
 				.setCategory("AntaresOneUpdater")
 				.setColor(Color.parseColor("#4CAF50"))
 				.setContentIntent(pIntent);
 				
 			Notification.InboxStyle inboxStyle = new Notification.InboxStyle();
-			inboxStyle.setBigContentTitle("Rom Version details:");
+			inboxStyle.setBigContentTitle(getResources().getString(R.string.version_details));
 			inboxStyle.addLine(getResources().getString(R.string.your_version) + ": " + systemVersion);
 			inboxStyle.addLine(getResources().getString(R.string.upstream_version) + ": " + upstreamVersion);
 			mBuilder.setStyle(inboxStyle);
