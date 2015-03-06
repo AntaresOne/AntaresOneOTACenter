@@ -2,6 +2,7 @@ package de.empty2k12.antaresoneupdater;
 
 import android.app.*;
 import android.content.*;
+import android.media.Image;
 import android.net.*;
 import android.os.*;
 import android.view.*;
@@ -29,7 +30,7 @@ public class InfoDialog extends DialogFragment
 
 				}
 			});
-		Button xda = (Button) v.findViewById(R.id.xda);
+		ImageButton xda = (ImageButton) v.findViewById(R.id.xda_button);
 		xda.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v)
@@ -41,7 +42,7 @@ public class InfoDialog extends DialogFragment
                 }
             });
 			
-		Button rooboo = (Button) v.findViewById(R.id.blog);
+		ImageButton rooboo = (ImageButton) v.findViewById(R.id.rooboo_button);
 		rooboo.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v)

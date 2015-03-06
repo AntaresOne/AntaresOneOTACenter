@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AntaresOne Updater</string>
+    <string name="app_name">AntaresOne OTA Center</string>
     <string name="about">Sobre mí</string>
     <string name="about_sum">Hola, \nyo soy Empty2k12, y tengo una pasión para Android. Me gusta el desarrollo nuevas aplicaciones y escribir comentarios para mi blog.\nSi quieres, comprobar los enlaces abajo!</string>
     <string name="blog">RooBoo AppReviews</string>
     <string name="check">Comprobar ahora</string>
     <string name="download">Descargar</string>
-    <string name="last_checked">último comprobado: 00:00</string>
+    <string name="last_checked">último comprobado</string>
     <string name="status">Sin conexión a internet</string>
     <string name="updated">Su sistema se actualiza!</string>
     <string name="xda_profile">deutron@XDA</string>
@@ -23,5 +23,16 @@
     <string name="your_version">Su versión</string>
     <string name="version_details">ROM detalles</string>
     <string name="new_update">Ascendente</string>
+    <string name="close_dialog">Cerrar</string>
+    <string name="donate">Donar</string>
+    <string name="donate_title">Contribuir</string>
+    <string name="alucard24_xda">Alucard24</string>
+    <string name="antaresone_xda">AntaresOne</string>
+    <string name="dev_thread">Dev thread</string>
+    <string name="donate_sum">Hi, \nI\'m AntaresOne, if you would like to support me by offering a coffee, a beer or whatever you want you\'re welcome. Donations are always greatly appreciated while spending a lot of time doing something useful for the community :)</string>
+    <string name="empty2k12_xda">Empty2k12</string>
+    <string name="qa_thread">QA thread</string>
+    <string name="rom_threads">ROM threads</string>
+    <string name="franzyroy_darkui">Franzyroy\'s DarkUI QA</string>
 
 </resources>

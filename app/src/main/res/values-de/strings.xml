@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AntaresOne Updater</string>
+    <string name="app_name">AntaresOne OTA Center</string>
     <string name="blog">RooBoo AppReviews</string>
     <string name="about">Über mich</string>
     <string name="about_sum">Hallo, \nich bin Empty2k12 und ich habe eine Leidenschaft für Android. Ich liebe es neue Apps zu entwickeln oder App-Reviews für meinen Blog zu schreiben.\nVergiss nicht die Links unten anzusehen!</string>
@@ -23,5 +23,16 @@
 	<string name="your_version">Deine version</string>
     <string name="version_details">ROM details</string>
     <string name="new_update">Server-Version</string>
+    <string name="close_dialog">Schließen</string>
+    <string name="donate_title">Contribute</string>
+    <string name="donate">Spende</string>
+    <string name="alucard24_xda">Alucard24</string>
+    <string name="antaresone_xda">AntaresOne</string>
+    <string name="dev_thread">Dev thread</string>
+    <string name="donate_sum">Hi, \nI\'m AntaresOne, if you would like to support me by offering a coffee, a beer or whatever you want you\'re welcome. Donations are always greatly appreciated while spending a lot of time doing something useful for the community :)</string>
+    <string name="empty2k12_xda">Empty2k12</string>
+    <string name="qa_thread">QA thread</string>
+    <string name="rom_threads">ROM threads</string>
+    <string name="franzyroy_darkui">Franzyroy\'s DarkUI QA</string>
 
 </resources>
