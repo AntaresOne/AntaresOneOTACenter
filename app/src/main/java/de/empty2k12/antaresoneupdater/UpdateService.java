@@ -43,7 +43,7 @@ public class UpdateService extends IntentService
 				.setSmallIcon(android.R.drawable.stat_sys_download_done)
 				.setAutoCancel(true)
 				.setContentTitle(getResources().getString(R.string.rom_update_available))
-				.setContentText(getResources().getString(R.string.new_update) + ": " + systemVersion)
+				.setContentText(getResources().getString(R.string.new_update) + ": " + upsteamVersion)
 				.setCategory("AntaresOneUpdater")
 				.setColor(Color.parseColor("#2196F3"))
 				.setContentIntent(pIntent);
