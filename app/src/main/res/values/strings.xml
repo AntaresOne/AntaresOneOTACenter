@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AntaresOne OTA Center</string>
+    <string name="about">About me</string>
+    <string name="about_sum">Hi, \nI am Empty2k12 and I have a passion for Android. I love developing new apps or write reviews for my blog.\nIf you want, check out the links below!</string>
+    <string name="blog">RooBoo AppReviews</string>
+    <string name="check">Check</string>
+    <string name="download">Download</string>
+    <string name="last_checked">Last checked</string>
+    <string name="status">No internet connection</string>
+    <string name="updated">Your system is up to date!</string>
+    <string name="xda_profile">XDA-Developers</string>
+    <string name="got_it">Got it!</string>
+    <string name="loading">Loading...</string>
+    <string name="system">System</string>
+    <string name="upstream">Upstream</string>
+    <string name="upstream_version">Upstream version</string>
+    <string name="update_available">Update available</string>
+    <string name="rom_update_available">ROM update available</string>
+    <string name="your_system_is_up_to_date">Your system is up to date</string>
+    <string name="never_checked">Never checked</string>
+    <string name="your_version">Your version</string>
+    <string name="version_details">ROM details</string>
+    <string name="new_update">New update</string>
+    <string name="donate">Donate</string>
+    <string name="donate_title">Make a donation</string>
+    <string name="donate_sum">Hi, \nI\'m AntaresOne, if you would like to support me by offering a coffee, a beer or whatever you want you\'re welcome. Donations are always greatly appreciated while spending a lot of time doing something useful for the community :)</string>
+    <string name="close_dialog">Close</string>
+    <string name="antaresone_xda">AntaresOne</string>
+    <string name="dev_thread">Dev thread</string>
+    <string name="empty2k12_xda">Empty2k12</string>
+    <string name="rom_threads">ROM threads</string>
+    <string name="qa_thread">QA thread</string>
+    <string name="alucard24_xda">Alucard24</string>
+    <string name="coming_soon">Coming soon</string>
+
+</resources>

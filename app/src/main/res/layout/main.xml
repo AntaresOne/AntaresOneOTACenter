@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+		android:id="@+id/status_text"
+		android:text="@string/updated"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:paddingLeft="8dip"
+		android:paddingBottom="16dip"
+                android:textColor="#616161" />
+
+		<TextView
+			android:id="@+id/last_checked"
+			android:text="@string/last_checked"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:paddingLeft="8dip"
+			android:layout_below="@id/status_text" />
+
+		<TextView
+			android:id="@+id/status"
+			android:text="@string/status"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dip"
+			android:layout_below="@id/last_checked" />
+
+    </RelativeLayout>
+	
+	<LinearLayout style="?android:buttonBarStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_below="@+id/relativeLayout"
+		android:layout_alignParentStart="true"
+		android:id="@+id/linearLayout" >
+		
+        <Button style="?android:buttonBarButtonStyle"
+		android:id="@+id/download_button"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="@string/download"
+		android:textColor="#2196F3" />
+
+        <Button style="?android:buttonBarButtonStyle"
+		android:id="@+id/check_button"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="@string/check"
+		android:textColor="#2196F3" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayout2">
+
+        <TextView
+            android:id="@+id/rom_threads"
+            android:text="@string/rom_threads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingStart="8dip"
+            android:textColor="#616161"
+            android:layout_marginTop="150dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout style="?android:buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/dev_thread"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dev_thread"
+            android:textColor="#2196F3"
+            android:visibility="gone" />
+
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/qa_thread"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/coming_soon"
+            android:textColor="#2196F3" />
+
+    </LinearLayout>
+
+    <LinearLayout style="?android:buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout3">
+
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/franzyroy_darkui"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/franzyroy_darkui"
+            android:textColor="#2196F3"
+	    android:visibility="gone" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_below="@id/linearLayout3"
+        android:id="@+id/relativeLayout3">
+
+        <TextView
+            android:id="@+id/xda"
+            android:text="@string/xda_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingLeft="8dip"
+            android:textColor="#616161" />
+
+    </RelativeLayout>
+
+    <LinearLayout style="?android:buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/relativeLayout3"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout4">
+
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/antaresone_xda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/antaresone_xda"
+            android:textColor="#2196F3" />
+
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/alucard24_xda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/alucard24_xda"
+            android:textColor="#2196F3" />
+
+    </LinearLayout>
+
+    <LinearLayout style="?android:buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout5">
+
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/empty2k12_xda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/empty2k12_xda"
+            android:textColor="#2196F3" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/googleplus"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_googleplus"
+        android:background="#00000000"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/facebook"
+        android:layout_alignBottom="@+id/googleplus"
+        android:layout_alignTop="@+id/googleplus"
+        android:src="@drawable/ic_facebook"
+        android:background="#00000000"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twitter"
+        android:layout_alignTop="@+id/googleplus"
+        android:layout_alignBottom="@+id/googleplus"
+        android:layout_marginStart="275dp"
+        android:src="@drawable/ic_twitter"
+        android:background="#00000000"/>
+
+
+</RelativeLayout>

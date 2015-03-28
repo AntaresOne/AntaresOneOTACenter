@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AntaresOne OTA Center</string>
+    <string name="about">A proposito</string>
+    <string name="about_sum">Ciao, \nsono Empty2k12 e ho la passione per Android. Amo sviluppare nuove app e scrivere recensioni nel mio blog.\nSe vuoi, dai un\'occhiata ai link!</string>
+    <string name="blog">RooBoo AppReviews</string>
+    <string name="check">Controlla ora</string>
+    <string name="download">Scarica</string>
+    <string name="last_checked">Ultimo controllo</string>
+    <string name="status">Connessione internet assente</string>
+    <string name="updated">Il sistema è aggiornato!</string>
+    <string name="xda_profile">XDA-Developers</string>
+    <string name="got_it">Ricevuto!</string>
+    <string name="loading">Caricamento...</string>
+    <string name="never_checked">Mai controllato</string>
+    <string name="rom_update_available">Aggiornamento ROM disponibile</string>
+    <string name="system">Sistema</string>
+    <string name="update_available">Aggiornamento disponibile</string>
+    <string name="upstream">Aggiornamento</string>
+    <string name="upstream_version">Aggiornamento</string>
+    <string name="your_system_is_up_to_date">Il sistema è aggiornato</string>
+    <string name="your_version">Versione corrente</string>
+    <string name="version_details">Dettagli ROM</string>
+    <string name="new_update">Aggiornamento</string>
+    <string name="donate">Dona</string>
+    <string name="donate_title">Fai una donazione</string>
+    <string name="donate_sum">Ciao, \nSono AntaresOne, se vuoi supportarmi offrendomi un caffè, una birra o ciò che vuoi sei il benvenuto. Le donazioni sono sempre molto apprezzate quando spendi tanto tempo facendo qualcosa per la comunità :)</string>
+    <string name="close_dialog">Chiudi</string>
+    <string name="alucard24_xda">Alucard24</string>
+    <string name="antaresone_xda">AntaresOne</string>
+    <string name="dev_thread">Dev thread</string>
+    <string name="empty2k12_xda">Empty2k12</string>
+    <string name="qa_thread">QA thread</string>
+    <string name="rom_threads">ROM threads</string>
+    <string name="coming_soon">Presto disponibile</string>
+
+</resources>

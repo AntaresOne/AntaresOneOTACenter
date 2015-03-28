@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="64dp"
+		android:background="#FF448AFF" >
+		
+		<TextView
+			android:text="@string/about"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:contentDescription="@string/app_name"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="@android:color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginLeft="6dp"
+			android:layout_marginRight="6dp"
+			android:layout_marginBottom="4dp" />
+		
+	</RelativeLayout>
+	
+	<TextView
+		android:text="@string/about_sum"
+        android:textStyle="bold"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="4dp" />
+    
+	<ImageButton
+        android:id="@+id/xda_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/ic_xda"
+        android:background="#00000000"/>
+
+    <ImageButton
+        android:id="@+id/rooboo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/ic_rooboo"
+        android:background="#00000000"/>
+
+</LinearLayout>
