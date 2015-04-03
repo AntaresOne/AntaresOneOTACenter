@@ -99,15 +99,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/dev_thread"
-            android:textColor="#2196F3"
-            android:visibility="gone" />
+            android:textColor="#2196F3" />
 
         <Button style="?android:buttonBarButtonStyle"
             android:id="@+id/qa_thread"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/coming_soon"
+            android:text="@string/qa_thread"
             android:textColor="#2196F3" />
 
     </LinearLayout>

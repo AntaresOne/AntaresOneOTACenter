@@ -17,9 +17,8 @@ public class MainActivity extends Activity
     private Button mDownload;
     private Button mUpdate;
     private AntaresUtil util;
-    /** private Button mDevThread;
-     * private Button mQAThread;
-     */
+    private Button mDevThread;
+    private Button mQAThread;
     private Button mAntaresOne;
     private Button mAlucard24;
     private Button mEmpty2k12;
@@ -38,50 +37,37 @@ public class MainActivity extends Activity
 		mLastChecked = (TextView) findViewById(R.id.last_checked);
 		mDownload = (Button) findViewById(R.id.download_button);
 		mUpdate = (Button) findViewById(R.id.check_button);
-		/** mDevThread = (Button) findViewById(R.id.dev_thread);
-		 *   mQAThread = (Button) findViewById(R.id.qa_thread);
-	         */
-		AntaresOne = (Button) findViewById(R.id.antaresone_xda);
+		mDevThread = (Button) findViewById(R.id.dev_thread);
+		mQAThread = (Button) findViewById(R.id.qa_thread);
+	        AntaresOne = (Button) findViewById(R.id.antaresone_xda);
 		mAlucard24 = (Button) findViewById(R.id.alucard24_xda);
 		mEmpty2k12 = (Button) findViewById(R.id.empty2k12_xda);
 		mFacebook = (ImageButton) findViewById(R.id.facebook);
 		mGooglePlus = (ImageButton) findViewById(R.id.googleplus);
 		mTwitter = (ImageButton) findViewById(R.id.twitter);
 
-        /** mDevThread.setOnClickListener(new View.OnClickListener() {
-         *           @Override
-         *           public void onClick(View v)
-         *           {
-         *               String url = "http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/rom-cyanogenmod-12-t2943934";
-         *               Intent intent = new Intent(Intent.ACTION_VIEW);
-         *               intent.setData(Uri.parse(url));
-	 *     	  startActivity(intent);
-         *           }
-	 *});
-	 *
-	 *
-         * mQAThread.setOnClickListener(new View.OnClickListener() {
-	 * @Override
-         *   public void onClick(View v)
-         *   {
-         *       String url = "http://forum.xda-developers.com/galaxy-s4/help/qa-cyanogenmod-12-0-t2946574";
-         *       Intent intent = new Intent(Intent.ACTION_VIEW);
-         *       intent.setData(Uri.parse(url));
-         *       startActivity(intent);
-         *   }
-         *});
-	 *
-         * mDarkUI.setOnClickListener(new View.OnClickListener() {
-         *   @Override
-         *   public void onClick(View v)
-         *   {
-         *       String url = "http://forum.xda-developers.com/galaxy-s4/help/qa-franzyroys-dark-ui-t2994011";
-         *       Intent intent = new Intent(Intent.ACTION_VIEW);
-         *       intent.setData(Uri.parse(url));
-         *       startActivity(intent);
-         *   }
-         *});
-	 */
+        mDevThread.setOnClickListener(new View.OnClickListener() {
+	    @Override
+	    public void onClick(View v)
+	    {
+		String url = "http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696";
+		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.setData(Uri.parse(url));
+		startActivity(intent);
+	    }
+	});
+	
+	mQAThread.setOnClickListener(new View.OnClickListener() {
+	    @Override
+	    public void onClick(View v)
+	    {
+		String url = "http://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/exclusive-antaresone-alucard24-s-t3066696";
+		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.setData(Uri.parse(url));
+		startActivity(intent);
+	    }
+	});
+	
         mAntaresOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
