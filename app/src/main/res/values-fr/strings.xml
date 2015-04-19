@@ -11,16 +11,16 @@
     <string name="status">Aucune connexion internet</string>
     <string name="updated">Votre système est à jour!</string>
     <string name="xda_profile">deutron@XDA</string>
-	<string name="got_it">Ok!</string>
-	<string name="loading">Chargement...</string>
-	<string name="system">System</string>
-	<string name="upstream">Upstream</string>
-	<string name="upstream_version">Upstream</string>
-	<string name="update_available">Mise à jour disponible</string>
-	<string name="rom_update_available">Mise à jour de ROM disponible</string>
-	<string name="your_system_is_up_to_date">Votre systeme est mis à jour</string>
-	<string name="never_checked">Jamais vérifié</string>
-	<string name="your_version">Votre version</string>
+    <string name="got_it">Ok!</string>
+    <string name="loading">Chargement...</string>
+    <string name="system">System</string>
+    <string name="upstream">Upstream</string>
+    <string name="upstream_version">Upstream</string>
+    <string name="update_available">Mise à jour disponible</string>
+    <string name="rom_update_available">Mise à jour de ROM disponible</string>
+    <string name="your_system_is_up_to_date">Votre systeme est mis à jour</string>
+    <string name="never_checked">Jamais vérifié</string>
+    <string name="your_version">Votre version</string>
     <string name="version_details">ROM détails</string>
     <string name="new_update">Upstream</string>
     <string name="donate">Donner</string>
@@ -33,5 +33,5 @@
     <string name="empty2k12_xda">Empty2k12</string>
     <string name="qa_thread">QA thread</string>
     <string name="rom_threads">ROM threads</string>
-    <string name="franzyroy_darkui">Franzyroy\'s DarkUI QA</string>
+
 </resources>

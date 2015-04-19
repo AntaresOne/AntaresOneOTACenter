@@ -29,10 +29,9 @@
     <string name="close_dialog">Chiudi</string>
     <string name="alucard24_xda">Alucard24</string>
     <string name="antaresone_xda">AntaresOne</string>
-    <string name="dev_thread">Dev thread</string>
+    <string name="dev_thread">Sviluppo</string>
     <string name="empty2k12_xda">Empty2k12</string>
-    <string name="qa_thread">QA thread</string>
-    <string name="rom_threads">ROM threads</string>
-    <string name="franzyroy_darkui">Franzyroy\'s DarkUI QA</string>
+    <string name="qa_thread">Domande e risposte</string>
+    <string name="rom_threads">Discussioni</string>
 
 </resources>

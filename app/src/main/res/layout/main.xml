@@ -120,14 +120,6 @@
         android:layout_alignParentStart="true"
         android:id="@+id/linearLayout3">
 
-        <Button style="?android:buttonBarButtonStyle"
-            android:id="@+id/franzyroy_darkui"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/franzyroy_darkui"
-            android:textColor="#2196F3" />
-
     </LinearLayout>
 
     <RelativeLayout
